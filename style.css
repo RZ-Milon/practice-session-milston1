@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body{
+
+}
+
+.display-flex{
+    display: flex;
+    padding-left: 3%;
+}
+
+.header-banner{
+    height: 60vh;
+    margin: 5% 5% 0 5%;
+}
+.pull-left{
+    height: 80%;
+    width: 50%;
+}
+.orange-color{
+    color: orange;
+}
+.pull-left h1, h2{
+    font-size: 3.2rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+.header-description{
+    font-size: 1.1rem;
+    color: #000;
+    margin: 30px 0;
+}
+.linkable-btn{
+    font-size: 1.2rem;
+    letter-spacing: 00.2rem;
+    padding: 10px 20px;
+    background-image: linear-gradient( gray, orange);
+    border-radius: 1000px;
+    border: none;
+}
+.linkable-btn a{
+    color: #fff;
+}
+
+.pull-right{
+    width: 50%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.pull-right img{
+    height: 320px;
+    width: 300px;
+    /* background-position: left; */
+    border-radius: 30%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.about-me {
+    height: 75vh;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-me-img{
+    width: 50%;
+}
+#about-img{
+    height: 420px;
+    width: 400px;
+    padding-top: 20px;
+}
+.about-me-desc{
+    width: 50%;
+}
